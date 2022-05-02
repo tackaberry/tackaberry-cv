@@ -1,6 +1,8 @@
 ---
 title: Presentations and Articles
 description: Articles, Events, Presentations and Panels over the years.
+date: 2021-10-01
+
 ---
 
 ## Articles

@@ -30,6 +30,10 @@ const BlogIndex = ({ data, location }) => {
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
+          console.log('%cindex.js line:33 post.frontmatter', 'color: #007acc;', post.frontmatter);
+          if(post.frontmatter.hide===true){
+            return ""
+          }
 
           return (
             <li key={post.fields.slug}>
@@ -44,7 +48,6 @@ const BlogIndex = ({ data, location }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
                 </header>
                 <section>
                   <p
@@ -82,6 +85,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          hide
         }
       }
     }

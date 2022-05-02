@@ -6,6 +6,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const cvTemplate = path.resolve(`./src/templates/cv.js`)
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
@@ -17,6 +18,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         ) {
           nodes {
             id
+            frontmatter {
+              template
+            }
             fields {
               slug
             }
@@ -47,7 +51,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
       createPage({
         path: post.fields.slug,
-        component: blogPost,
+        component: (post.frontmatter.template==="cv"&&cvTemplate) || blogPost,
         context: {
           id: post.id,
           previousPostId,
@@ -106,6 +110,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       date: Date @dateformat
+      hide: Boolean
+      template: String
     }
 
     type Fields {
