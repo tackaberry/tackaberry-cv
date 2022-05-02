@@ -36,7 +36,6 @@ const IndexPage = () => (
                     <TechForGood />
                     <ChildNature />
                     <ArticlesPresentations />
-                    <Skills />
 
                     <Footer />
                 </div>
