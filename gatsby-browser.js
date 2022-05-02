@@ -1,11 +1,18 @@
-// custom typefaces
-import "typeface-montserrat"
-import "typeface-merriweather"
-// normalize CSS across browsers
-import "./src/normalize.css"
-// custom CSS styles
-import "./src/style.css"
-import "./src/layout.css"
+/**
+ * Implement Gatsby's Browser APIs in this file.
+ * Browser API
+ * See: https://www.gatsbyjs.com/docs/browser-apis/
+ */
 
-// Highlighting for code blocks
-import "prismjs/themes/prism.css"
+// You can delete this file if you're not using it
+import './src/components/App/assets/css/bootstrap.min.css';
+import './src/components/App/assets/css/animate.min.css';
+import './src/components/App/assets/css/boxicons.min.css';
+import './src/components/App/assets/css/flaticon.css';
+import './node_modules/react-modal-video/css/modal-video.min.css'
+import "react-datepicker/dist/react-datepicker.css"
+import './src/components/App/assets/css/style.css';
+import './src/components/App/assets/css/responsive.css';
+
+// For RTL style comment out the below rtl.css file
+// import './src/components/App/assets/css/rtl.css';

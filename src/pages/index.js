@@ -1,93 +1,48 @@
-import * as React from "react"
-import { Link, graphql } from "gatsby"
+import React from "react"
+import Layout from "../components/App/layout"
+import SEO from "../components/App/seo"
+import Navbar from "../components/DemoThree/Navbar"
+import MainBanner from "../components/DemoThree/MainBanner"
+import About from "../components/DemoThree/About"
+import TopSeven from "../components/DemoThree/TopSeven"
+import DayInTheLife from "../components/DemoThree/DayInTheLife"
+import ReadingList from "../components/DemoThree/ReadingList"
+import TechForGood from "../components/DemoThree/TechForGood"
+import ChildNature from "../components/DemoThree/ChildNature"
+import ArticlesPresentations from "../components/DemoThree/ArticlesPresentations"
+import Services from "../components/DemoThree/Services"
+import Experience from "../components/DemoThree/Experience"
+import Skills from "../components/DemoThree/Skills"
+import Projects from "../components/DemoThree/Projects"
+import BlogPost from "../components/DemoThree/BlogPost"
+import Testimonials from "../components/DemoThree/Testimonials"
+import ContactForm from "../components/DemoThree/ContactForm"
+import Footer from "../components/DemoThree/Footer"
 
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+const IndexPage = () => (
+    <Layout>
+        <div className="body-bg-five">
+            <div className="main-area two">
+                <Navbar />
 
-const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+                <SEO title="Brett Tackaberry" />
+                
+                <div className="main-content two">
+                    <MainBanner />
+                    <About />
+                    <TopSeven />
+                    <DayInTheLife />
+                    <ReadingList />
+                    <TechForGood />
+                    <ChildNature />
+                    <ArticlesPresentations />
+                    <Skills />
 
-  if (posts.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
-        <Seo title="All posts" />
-        <Bio />
-        <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
-        </p>
-      </Layout>
-    )
-  }
-
-  return (
-    <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
-      <Bio />
-      <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
-          console.log('%cindex.js line:33 post.frontmatter', 'color: #007acc;', post.frontmatter);
-          if(post.frontmatter.hide===true){
-            return ""
-          }
-
-          return (
-            <li key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
-              </article>
-            </li>
-          )
-        })}
-      </ol>
+                    <Footer />
+                </div>
+            </div>
+        </div>
     </Layout>
-  )
-}
+)
 
-export default BlogIndex
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      nodes {
-        excerpt
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
-          description
-          hide
-        }
-      }
-    }
-  }
-`
+export default IndexPage
