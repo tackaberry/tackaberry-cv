@@ -17,6 +17,7 @@ const About = () => {
                                 <p>Known for being an effective community leader, Brett encapsulates the creative spirit of harnessing complex technology to better the lives of people in need. His leadership benefits social good for some of Canada’s most well-known community initiatives, including Tech4Good, Random Hacks of Kindness, Mustaches for Kids, and his executive efforts alongside the Child and Nature Alliance of Canada and Forest School.</p>
                                 <p>Brett Tackaberry is one of the industry’s most celebrated and experienced professional problem-solvers. His inherent ability to lead international teams and strategically solve groundbreaking engineering and technological feats is why Brett remains a preeminent fixture shaping the future of digital technology in board rooms, complex environments and community initiatives throughout the developing and improving world.</p>
 
+                                <p><a href="https://drive.google.com/file/d/1AhnP-02XLKQtC3gBC0lkZj2JgV9MqWnc/view">See my CV for more details on skills and experience. </a></p>
                             
                             </div>
 
