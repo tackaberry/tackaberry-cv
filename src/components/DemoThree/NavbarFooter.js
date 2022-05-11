@@ -7,7 +7,7 @@ const NavbarFooter = () => {
     return (
         <>
         <div className="aside-footer">
-            <Link to="https://drive.google.com/file/d/1AhnP-02XLKQtC3gBC0lkZj2JgV9MqWnc/view" className="common-btn three">
+            <Link to="https://drive.google.com/file/d/1fQOfTqaNpsDWsIAf4E3LX-I1P8dyomh7/view" className="common-btn three">
                 Download CV <i className='bx bxs-download'></i>
             </Link>
             <ul className="social">
