@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Reton - Gatsby Resume CV`,
-    description: `Reton - Gatsby Resume CV`,
+    title: ``,
+    description: `Brett Tackaberry Personal Website`,
     author: `@envy_theme`,
   },
   // plugins
@@ -25,7 +25,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/components/App/assets/images/favicon/android-chrome-512x512.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
