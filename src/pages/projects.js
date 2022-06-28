@@ -4,7 +4,6 @@ import SEO from "../components/App/seo"
 import NavbarProjects from "../components/DemoThree/NavbarProjects"
 import Projects from "../components/DemoThree/Projects"
 import Footer from "../components/DemoThree/Footer"
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const IndexPage = () => (
     <Layout>

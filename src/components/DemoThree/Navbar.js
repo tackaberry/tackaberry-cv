@@ -121,6 +121,15 @@ const Navbar = () => {
                                 <AnchorLink 
                                     offset={() => -1} 
                                     className="nav-link" 
+                                    href="#pik"
+                                >
+                                    Project In Kind
+                                </AnchorLink>
+                            </li>
+                            <li className="nav-item">
+                                <AnchorLink 
+                                    offset={() => -1} 
+                                    className="nav-link" 
                                     href="#articles"
                                 >
                                     Articles &amp; Presentations

@@ -9,14 +9,8 @@ import DayInTheLife from "../components/DemoThree/DayInTheLife"
 import ReadingList from "../components/DemoThree/ReadingList"
 import TechForGood from "../components/DemoThree/TechForGood"
 import ChildNature from "../components/DemoThree/ChildNature"
+import ProjectInKind from "../components/DemoThree/ProjectInKind"
 import ArticlesPresentations from "../components/DemoThree/ArticlesPresentations"
-import Services from "../components/DemoThree/Services"
-import Experience from "../components/DemoThree/Experience"
-import Skills from "../components/DemoThree/Skills"
-import Projects from "../components/DemoThree/Projects"
-import BlogPost from "../components/DemoThree/BlogPost"
-import Testimonials from "../components/DemoThree/Testimonials"
-import ContactForm from "../components/DemoThree/ContactForm"
 import Footer from "../components/DemoThree/Footer"
 
 const IndexPage = () => (
@@ -35,6 +29,7 @@ const IndexPage = () => (
                     <ReadingList />
                     <TechForGood />
                     <ChildNature />
+                    <ProjectInKind />
                     <ArticlesPresentations />
 
                     <Footer />
