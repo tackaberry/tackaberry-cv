@@ -9,6 +9,9 @@ The website is hosted at [tackaberry.dev](https://tackaberry.dev).
 
 ## 🚀 Quick start
 
+Some other content. 
+
+
 ```sh
 npm install
 npm run start
