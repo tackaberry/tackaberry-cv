@@ -12,6 +12,9 @@ Testing 2
 
 ## 🚀 Quick start
 
+Some other content. 
+
+
 ```sh
 npm install
 npm run start
