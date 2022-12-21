@@ -12,7 +12,7 @@ Testing 2
 
 ## 🚀 Quick start
 
-Some other content. 
+Some other content.  And some more
 
 
 ```sh
