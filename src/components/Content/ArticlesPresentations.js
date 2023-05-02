@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 const About = () => {
     return (
         <div id="articles" className="about-area border-bottom-two three ptb-100">

@@ -16,7 +16,7 @@ const Navbar = () => {
                                 <Link 
                                     to="/"
                                 >
-                                    back to tackaberry.dev
+                                    🡄 back to tackaberry.dev
                                 </Link>
                             </li>
                             <li className="nav-item">
