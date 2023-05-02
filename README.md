@@ -13,6 +13,6 @@ Some other content.
 
 
 ```sh
-npm install
-npm run start
+yarn
+yarn run start
 ```

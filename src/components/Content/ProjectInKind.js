@@ -1,5 +1,6 @@
 import React from 'react'
-import projectinkind from './images/projectinkind.png'
+
+import { StaticImage } from "gatsby-plugin-image"
 
 
 const About = () => {
@@ -14,7 +15,7 @@ const About = () => {
 
                                 <h2>ProjectInKind</h2>
 
-                                <p><img alt="Project in kind logo" src={projectinkind} /></p>
+                                <StaticImage alt="Project in kind logo" src={'./images/projectinkind.png'} />
 
                                 <p><em>Voluntary CTO</em></p>
                                 
