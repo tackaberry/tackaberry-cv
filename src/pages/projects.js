@@ -1,9 +1,9 @@
 import React from "react"
-import Layout from "../components/App/layout"
-import SEO from "../components/App/seo"
-import NavbarProjects from "../components/DemoThree/NavbarProjects"
-import Projects from "../components/DemoThree/Projects"
-import Footer from "../components/DemoThree/Footer"
+import Layout from "../components/Layout/layout"
+import Seo from "../components/Layout/seo"
+import NavbarProjects from "../components/Layout/NavbarProjects"
+import Projects from "../components/Content/Projects"
+import Footer from "../components/Layout/Footer"
 
 const IndexPage = () => (
     <Layout>
@@ -11,7 +11,7 @@ const IndexPage = () => (
             <div className="main-area two">
                 <NavbarProjects />
 
-                <SEO title="Brett Tackaberry" />
+                <Seo title="Brett Tackaberry" />
                 
                 <div className="main-content two main-content--projects-main">
                     <div id="career-overview" className="about-area border-bottom-two three ptb-100">

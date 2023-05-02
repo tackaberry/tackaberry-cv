@@ -489,7 +489,6 @@ button:focus {
   z-index: 5;
   width: 500px;
   height: 100%;
-  background-image: url("../images/banner/banner-main1.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -1269,108 +1268,6 @@ button:focus {
   color: #FDDB3A;
 }
 
-/*-- Banner --*/
-.banner-area-two {
-  background-image: url("../images/banner/banner-bg.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 900px;
-}
-.banner-area-two:before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #000;
-  opacity: 0.6;
-}
-.banner-area-two .banner-shape-img {
-  position: absolute;
-  z-index: 1;
-  top: 110px;
-  left: 0;
-  right: 0;
-  max-width: 1180px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.banner-area-two .banner-content {
-  text-align: center;
-  position: relative;
-  z-index: 2;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.banner-area-two .banner-content:before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #000000;
-  opacity: 0.7;
-  z-index: -1;
-}
-.banner-area-two .banner-content span {
-  display: block;
-  font-size: 30px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #fff;
-}
-.banner-area-two .banner-content h1 {
-  font-size: 80px;
-  color: #FDDB3A;
-  margin-bottom: 30px;
-}
-.banner-area-two .banner-content .common-btn.two {
-  margin-bottom: 30px;
-}
-.banner-area-two .banner-content ul {
-  padding: 0;
-  margin: 0;
-}
-.banner-area-two .banner-content ul li {
-  list-style-type: none;
-  display: inline-block;
-  margin-right: 15px;
-}
-.banner-area-two .banner-content ul li a {
-  display: block;
-  color: #171717;
-  font-size: 22px;
-  color: #fff;
-}
-.banner-area-two .banner-content ul li a:hover {
-  transform: translate(0, -3px);
-}
-
-/*-- About --*/
-.about-area.two .about-img {
-  margin-bottom: 30px;
-}
-.about-area.two .about-img img {
-  width: 100%;
-}
-.about-area.two .about-img img:nth-child(1) {
-  max-width: 435px;
-}
-.about-area.two .about-img img:nth-child(2) {
-  max-width: 435px;
-  margin-left: 105px;
-  margin-top: -300px;
-}
-.about-area.two .about-content {
-  margin-bottom: 30px;
-}
 
 /*-- Gallery --*/
 .gallery-area .section-title.two {
@@ -1515,7 +1412,6 @@ button:focus {
 
 /*-- Ticket --*/
 .ticket-area {
-  background-image: url("../images/ticket-bg.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1570,91 +1466,8 @@ button:focus {
   width: 100%;
 }
 
-/*-- Review --*/
-.review-area.two .section-title.two {
-  text-align: center;
-  margin-bottom: 15px;
-}
-.review-area.two .review-item {
-  background-image: url("../images/review/review-bg.png");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-color: #fff;
-  border: 15px solid #fff;
-  box-shadow: 0px 0px 20px 0px rgba(221, 221, 221, 0.5098039216);
-  margin: 25px;
-  padding: 40px 100px 40px;
-}
-.review-area.two .review-item i {
-  color: #FDDB3A;
-}
-.review-area.two .review-item p {
-  font-weight: 600;
-  color: #171717;
-}
-.review-area.two .owl-theme .owl-nav {
-  margin-top: 5px;
-}
-.review-area.two .owl-prev {
-  border: 1px solid #FDDB3A !important;
-  color: #FDDB3A !important;
-}
-.review-area.two .owl-prev:hover {
-  color: #fff !important;
-  background-color: #FDDB3A !important;
-}
-.review-area.two .owl-next {
-  border: 1px solid #FDDB3A !important;
-  color: #FDDB3A !important;
-}
-.review-area.two .owl-next:hover {
-  color: #fff !important;
-  background-color: #FDDB3A !important;
-}
 
-/*-- Contact --*/
-.contact-area.two .section-title.two {
-  text-align: center;
-}
-.contact-area.two .section-title.two h2 {
-  max-width: 760px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.contact-area.two .section-title.two p {
-  max-width: 845px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.contact-area.two #contactForm .form-group {
-  margin-bottom: 15px;
-}
-.contact-area.two #contactForm .common-btn {
-  color: #FDDB3A;
-  border: 2px solid #FDDB3A;
-  margin-bottom: -8px;
-}
-.contact-area.two #contactForm .common-btn:before {
-  background-color: #FDDB3A;
-}
-.contact-area.two #contactForm .common-btn:after {
-  background-color: #FDDB3A;
-}
-.contact-area.two #contactForm .common-btn:hover {
-  color: #fff;
-}
 
-/*-- Copyright --*/
-.copyright-area.two {
-  border-top: 1px solid #f1f1f1;
-}
-.copyright-area.two .copyright-item p a {
-  color: #FDDB3A;
-}
-.copyright-area.two .copyright-item p a:hover {
-  color: #171717;
-}
 
 /*----- End Home Demo Two CSS -----*/
 /*----- Home Demo Three CSS -----*/
@@ -2069,78 +1882,6 @@ button:focus {
   border-bottom: 2px solid #5C2CFF;
 }
 
-/*-- Banner --*/
-.banner-area.four {
-  background-image: url("../images/banner/banner-bg2.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  margin-left: 70px;
-  margin-right: 70px;
-}
-.banner-area.four .banner-img img {
-  position: absolute;
-  bottom: 0;
-  right: 75px;
-  max-width: 690px;
-}
-.banner-area.four:before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #5C2CFF;
-  opacity: 0.8;
-}
-.banner-area.four .banner-content {
-  position: relative;
-  z-index: 1;
-}
-.banner-area.four .banner-content .sub-head {
-  color: #fff;
-  font-weight: 700;
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-.banner-area.four .banner-content h1 {
-  max-width: 100%;
-  color: #fff;
-  font-size: 100px;
-  margin-bottom: 5px;
-}
-.banner-area.four .banner-content p {
-  color: #fff;
-  max-width: 575px;
-}
-.banner-area.four .banner-content p span {
-  color: #fff;
-  font-weight: 700;
-}
-.banner-area.four .banner-content .common-btn {
-  color: #fff;
-  border: 2px solid #fff;
-}
-.banner-area.four .banner-content .common-btn:before {
-  background-color: #fff;
-}
-.banner-area.four .banner-content .common-btn:after {
-  background-color: #fff;
-}
-.banner-area.four .banner-content .common-btn:hover {
-  color: #5C2CFF;
-}
-.banner-area.four .banner-content .banner-btn-area .banner-btn {
-  color: #5C2CFF;
-}
-.banner-area.four .banner-content .banner-btn-area .banner-btn:hover {
-  color: #fff;
-}
-.banner-area.four .banner-content ul li a {
-  color: #fff;
-}
 
 /*-- Work --*/
 .work-item {
@@ -2880,62 +2621,6 @@ button:focus {
   margin-left: 3px;
 }
 
-/*-- Review --*/
-.review-area.five .review-item {
-  background-color: #050608;
-  border: 0;
-  background-image: url("../images/review/review-bg2.png");
-  box-shadow: none;
-  margin-bottom: 0;
-}
-.review-area.five .review-item i {
-  color: #fff;
-}
-.review-area.five .review-item p {
-  color: #ED2C66;
-}
-.review-area.five .review-item h3 {
-  color: #fff;
-}
-.review-area.five .review-item span {
-  color: #B7B7B7;
-}
-.review-area.five .owl-theme .owl-nav .owl-prev, .review-area.five .owl-theme .owl-nav .owl-next {
-  border: 1px solid #ED2C66 !important;
-  color: #ED2C66 !important;
-}
-.review-area.five .owl-theme .owl-nav .owl-prev:hover, .review-area.five .owl-theme .owl-nav .owl-next:hover {
-  color: #fff !important;
-  background-color: #ED2C66 !important;
-}
-
-/*-- Contact --*/
-.contact-area.five .contact-content .top ul li span {
-  color: #fff;
-}
-.contact-area.five .contact-content .top ul li a {
-  color: #B7B7B7;
-}
-.contact-area.five .contact-content .top ul li a:hover {
-  color: #ED2C66;
-}
-.contact-area.five .contact-content .bottom ul li a {
-  color: #fff;
-}
-
-/*-- Copyright --*/
-.copyright-area.five {
-  border-top: 1px solid rgba(241, 241, 241, 0.1019607843);
-}
-.copyright-area.five .copyright-item p {
-  color: #B7B7B7;
-}
-.copyright-area.five .copyright-item p a {
-  color: #ED2C66;
-}
-.copyright-area.five .copyright-item p a:hover {
-  color: #fff;
-}
 
 /*----- End Home Demo Five CSS -----*/
 /*----- Home Demo Six CSS -----*/
@@ -2956,102 +2641,6 @@ button:focus {
   box-shadow: 0px 0px 20px 0px rgba(221, 221, 221, 0.1490196078);
 }
 
-/*-- Banner --*/
-.banner-area.six {
-  position: relative;
-  background-image: url("../images/banner/banner-bg3.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.banner-area.six:before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #121212;
-  opacity: 0.7;
-}
-.banner-area.six .banner-content {
-  text-align: center;
-  position: relative;
-  z-index: 2;
-}
-.banner-area.six .banner-content .sub-head {
-  font-weight: 600;
-  font-size: 30px;
-  color: #B7B7B7;
-  margin-bottom: 10px;
-  display: block;
-}
-.banner-area.six .banner-content h1 {
-  color: #fff;
-  max-width: 100%;
-  margin-bottom: 30px;
-}
-.banner-area.six .lines {
-  z-index: 0;
-}
-
-/*-- About --*/
-.about-area.six .section-title.six {
-  text-align: left;
-}
-.about-area.six .section-title.six p {
-  color: #B7B7B7;
-}
-.about-area.six .about-img-three {
-  margin-bottom: 30px;
-}
-.about-area.six .about-content {
-  margin-bottom: 30px;
-}
-.about-area.six .about-content ul li {
-  color: #B7B7B7;
-}
-.about-area.six .about-content ul li span {
-  color: #fff;
-}
-.about-area.six .about-content ul li a {
-  color: #B7B7B7;
-}
-.about-area.six .about-content ul li a:hover {
-  color: #fff;
-}
-
-/*-- Services --*/
-.what-area.six .what-item {
-  text-align: left;
-}
-.what-area.six .what-item img {
-  width: 100%;
-  margin-bottom: 20px;
-}
-.what-area.six .what-item h3 a {
-  color: #fff;
-}
-.what-area.six .what-item h3 a:hover {
-  color: #B7B7B7;
-}
-.what-area.six .what-item p {
-  color: #B7B7B7;
-}
-.what-area.six .what-item .what-btn {
-  color: #fff;
-}
-.what-area.six .what-item .what-btn:hover {
-  color: #B7B7B7;
-}
-
-/*-- Counter --*/
-.counter-area.two .counter-item h3 {
-  color: #fff;
-}
-.counter-area.two .counter-item p {
-  color: #B7B7B7;
-}
 
 /*-- Creation --*/
 .creation-item {

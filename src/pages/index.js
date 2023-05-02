@@ -1,17 +1,16 @@
 import React from "react"
-import Layout from "../components/App/layout"
-import SEO from "../components/App/seo"
-import Navbar from "../components/DemoThree/Navbar"
-import MainBanner from "../components/DemoThree/MainBanner"
-import About from "../components/DemoThree/About"
-import TopSeven from "../components/DemoThree/TopSeven"
-import DayInTheLife from "../components/DemoThree/DayInTheLife"
-import ReadingList from "../components/DemoThree/ReadingList"
-import TechForGood from "../components/DemoThree/TechForGood"
-import ChildNature from "../components/DemoThree/ChildNature"
-import ProjectInKind from "../components/DemoThree/ProjectInKind"
-import ArticlesPresentations from "../components/DemoThree/ArticlesPresentations"
-import Footer from "../components/DemoThree/Footer"
+import Layout from "../components/Layout/layout"
+import Seo from "../components/Layout/seo"
+import Navbar from "../components/Layout/Navbar"
+import MainBanner from "../components/Content/MainBanner"
+import About from "../components/Content/About"
+import TopSeven from "../components/Content/TopSeven"
+import DayInTheLife from "../components/Content/DayInTheLife"
+import TechForGood from "../components/Content/TechForGood"
+import ChildNature from "../components/Content/ChildNature"
+import ProjectInKind from "../components/Content/ProjectInKind"
+import ArticlesPresentations from "../components/Content/ArticlesPresentations"
+import Footer from "../components/Layout/Footer"
 
 const IndexPage = () => (
     <Layout>
@@ -19,14 +18,13 @@ const IndexPage = () => (
             <div className="main-area two">
                 <Navbar />
 
-                <SEO title="Brett Tackaberry" />
+                <Seo title="Brett Tackaberry" />
                 
                 <div className="main-content two">
                     <MainBanner />
                     <About />
                     <TopSeven />
                     <DayInTheLife />
-                    <ReadingList />
                     <TechForGood />
                     <ChildNature />
                     <ProjectInKind />

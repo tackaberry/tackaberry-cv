@@ -520,22 +520,6 @@ button {
     .container {
         max-width: 700px;
     }
-    .main-left-img {
-        position: fixed;
-        left: 0;
-        top: 0;
-        z-index: 5;
-        width: 500px;
-        height: 100%;
-        background-image: url('../images/banner/banner-main1.jpg');
-        background-size: cover;
-        background-position: top center;
-        background-repeat: no-repeat;
-
-        img {
-            display: none;
-        }
-    }
     .main-content {
         padding-left: 500px;
 
@@ -1436,7 +1420,6 @@ button {
 
 /*-- Banner --*/
 .banner-area-two {
-    background-image: url('../images/banner/banner-bg.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1720,7 +1703,6 @@ button {
 
 /*-- Ticket --*/
 .ticket-area {
-    background-image: url('../images/ticket-bg.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1788,7 +1770,6 @@ button {
         margin-bottom: 15px;
     }
     .review-item {
-        background-image: url('../images/review/review-bg.png');
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -2407,91 +2388,6 @@ button {
     }
 }
 
-/*-- Banner --*/
-.banner-area.four {
-    background-image: url('../images/banner/banner-bg2.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-left: 70px;
-    margin-right: 70px;
-
-    .banner-img {
-        img {
-            position: absolute;
-            bottom: 0;
-            right: 75px;
-            max-width: 690px;
-        }
-    }
-    &:before {
-        position: absolute;
-        content: '';
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-color: $blue-color;
-        opacity: .80;
-    }
-    .banner-content {
-        position: relative;
-        z-index: 1;
-
-        .sub-head {
-            color: $white-color;
-            font-weight: 700;
-            font-size: 30px;
-            margin-bottom: 10px;
-        }
-        h1 {
-            max-width: 100%;
-            color: $white-color;
-            font-size: 100px;
-            margin-bottom: 5px;
-        }
-        p {
-            color: $white-color;
-            max-width: 575px;
-
-            span {
-                color: $white-color;
-                font-weight: 700;
-            }
-        }
-        .common-btn {
-            color: $white-color;
-            border: 2px solid $white-color;
-
-            &:before {
-                background-color: $white-color;
-            }
-            &:after {
-                background-color: $white-color;
-            }
-            &:hover {
-                color: $blue-color;
-            }
-        }
-        .banner-btn-area {
-            .banner-btn {
-                color: $blue-color;
-
-                &:hover {
-                    color: $white-color;
-                }
-            }
-        }
-        ul {
-            li {
-                a {
-                    color: $white-color;
-                }
-            }
-        }
-    }
-}
 
 /*-- Work --*/
 .work-item {
@@ -3355,232 +3251,8 @@ button {
     }
 }
 
-/*-- Review --*/
-.review-area.five {
-    .review-item {
-        background-color: #050608;
-        border: 0;
-        background-image: url('../images/review/review-bg2.png');
-        box-shadow: none;
-        margin-bottom: 0;
-
-        i {
-            color: $white-color;
-        }
-        p {
-            color: $pink-color;
-        }
-        h3 {
-            color: $white-color;
-        }
-        span {
-            color: #B7B7B7;
-        }
-    }
-    .owl-theme {
-        .owl-nav {
-            .owl-prev, .owl-next {
-                border: 1px solid $pink-color !important;
-                color: $pink-color !important;
-        
-                &:hover {
-                    color: $white-color !important;
-                    background-color: $pink-color !important;
-                }
-            }
-        }
-    }
-}
-
-/*-- Contact --*/
-.contact-area.five {
-    .contact-content {
-        .top {
-            ul {
-                li {
-                    span {
-                        color: $white-color;
-                    }
-                    a {
-                        color: #B7B7B7;
-
-                        &:hover {
-                            color: $pink-color;
-                        }
-                    }
-                }
-            }
-        }
-        .bottom {
-            ul {
-                li {
-                    a {
-                        color: $white-color;
-                    }
-                }
-            }
-        }
-    }
-}
-
-/*-- Copyright --*/
-.copyright-area.five {
-    border-top: 1px solid #f1f1f11a;
-
-    .copyright-item {
-        p {
-            color: #B7B7B7;
-
-            a {
-                color: $pink-color;
-
-                &:hover {
-                    color: $white-color;
-                }
-            }
-        }
-    }
-}
 /*----- End Home Demo Five CSS -----*/
 
-/*----- Home Demo Six CSS -----*/
-/*-- Navbar --*/
-.navbar-light.six {
-    background-color: #111111;
-
-    .navbar-nav .active > .nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show > .nav-link {
-        color: $white-color;
-    }
-    .navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
-        color: $white-color;
-    }
-    .navbar-nav {
-        .nav-link {
-            color: $grey-color;
-        }
-    }
-    &.is-sticky {
-        box-shadow: 0px 0px 20px 0px #dddddd26;
-    }
-}
-
-/*-- Banner --*/ 
-.banner-area.six {
-    position: relative;
-    background-image: url('../images/banner/banner-bg3.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-
-    &:before {
-        position: absolute;
-        content: '';
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-color: #121212;
-        opacity: .70;
-    }
-    .banner-content {
-        text-align: center;
-        position: relative;
-        z-index: 2;
-
-        .sub-head {
-            font-weight: 600;
-            font-size: 30px;
-            color: $grey-color;
-            margin-bottom: 10px;
-            display: block;
-        }
-        h1 {
-            color: $white-color;
-            max-width: 100%;
-            margin-bottom: 30px;
-        }
-    }
-    .lines {
-        z-index: 0;
-    }
-}
-
-/*-- About --*/ 
-.about-area.six {
-    .section-title.six {
-        text-align: left;
-
-        p {
-            color: $grey-color;
-        }
-    }
-    .about-img-three {
-        margin-bottom: 30px;
-    }
-    .about-content {
-        margin-bottom: 30px;
-
-        ul {
-            li {
-                color: $grey-color;
-
-                span {
-                    color: $white-color;
-                }
-                a {
-                    color: $grey-color;
-
-                    &:hover {
-                        color: $white-color;
-                    }
-                }
-            }
-        }
-    }
-}
-
-/*-- Services --*/ 
-.what-area.six {
-    .what-item {
-        text-align: left;
-
-        img {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        h3 {
-            a {
-                color: $white-color;
-
-                &:hover {
-                    color: $grey-color;
-                }
-            }
-        }
-        p {
-            color: $grey-color;
-        }
-        .what-btn {
-            color: $white-color;
-
-            &:hover {
-                color: $grey-color;
-            }
-        }
-    }
-}
-
-/*-- Counter --*/ 
-.counter-area.two {
-    .counter-item {
-        h3 {
-            color: $white-color;
-        }
-        p {
-            color: $grey-color;
-        }
-    }
-}
 
 /*-- Creation --*/ 
 .creation-item {
@@ -3624,33 +3296,6 @@ button {
     }
 }
 
-/*-- Review --*/ 
-.review-area.six {
-    .review-item {
-        i {
-            color: $main-color;
-        }
-    }
-    .owl-prev {
-        border: 1px solid $grey-color !important;
-        color: $grey-color !important;
-
-        &:hover {
-            color: $main-color !important;
-            background-color: $grey-color !important;
-        }
-    }
-    .owl-next {
-        border: 1px solid $grey-color !important;
-        color: $grey-color !important;
-
-        &:hover {
-            color: $main-color !important;
-            background-color: $grey-color !important;
-        }
-    }
-}
-
 /*-- Logo --*/ 
 .logo-area {
     border-top: 1px solid #b7b7b74d;
@@ -3667,121 +3312,6 @@ button {
     }
 }
 
-/*-- Blog --*/ 
-.blog-area.six {
-    .blog-item {
-        .top {
-            h4 {
-                background-color: $white-color;
-                color: $main-color;
-            }
-        }
-        .bottom {
-            h3 {
-                a {
-                    color: $white-color;
-
-                    &:hover {
-                        color: $grey-color;
-                    }
-                }
-            }
-            p {
-                color: $grey-color;
-            }
-            .blog-btn {
-                color: $white-color;
-
-                &:hover {
-                    color: $grey-color;
-                }
-            }
-        }
-    }
-}
-
-/*-- Contact --*/ 
-.contact-area.six {
-    .contact-content {
-        .top {
-            ul {
-                li {
-                    span {
-                        color: $white-color;
-                    }
-                    a {
-                        color: $grey-color;
-
-                        &:hover {
-                            color: $white-color;
-                        }
-                    }
-                }
-            }
-        }
-        .bottom {
-            ul {
-                li {
-                    a {
-                        color: $white-color;
-                    }
-                }
-            }
-        }
-    }
-}
-
-/*-- Copyright --*/ 
-.copyright-area.six {
-    border-top: 1px solid #f1f1f11a;
-
-    .copyright-item {
-        p {
-            color: $grey-color;
-
-            a {
-                color: $white-color;
-
-                &:hover {
-                    color: $grey-color;
-                }
-            }
-        }
-    }
-}
-/*----- End Home Demo Six CSS -----*/
-
-/*----- Work Details CSS -----*/
-.navbar-light.seven {
-    box-shadow: 0px 0px 20px 0px #dddddd61;
-    background-color: $main-color;
-
-    .side-nav {
-        .common-btn {
-            &:before {
-                border-top: 2px solid $orange-color;
-                border-left: 2px solid $orange-color;
-                border-bottom: 2px solid $orange-color;
-            }
-            &:after {
-                border-top: 2px solid $orange-color;
-                border-right: 2px solid $orange-color;
-                border-bottom: 2px solid $orange-color;
-            }
-        }
-    }
-    .navbar-nav {
-        .nav-link {
-            color: $white-color;
-        }
-        .nav-link:focus, .nav-link:hover {
-            color: $orange-color;
-        }
-    }
-    .navbar-nav .active > .nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show > .nav-link {
-        color: $orange-color;
-    }
-}
 .page-title-area {
     height: 440px;
     position: relative;
@@ -4403,33 +3933,7 @@ button {
         }
     }
 }
-/*-- Review --*/
-.review-area.three {
-    .review-item {
-        margin: 0;
-        border: 0 !important;
 
-        p {
-            color: $green-color !important;
-        }
-    }
-    .owl-theme {
-        .owl-nav {
-            margin-top: 30px;
-
-            .owl-prev, .owl-next {
-                border: 1px solid $green-color !important;
-                color: $green-color !important;
-                background-color: transparent;
-        
-                &:hover {
-                    color: $main-color !important;
-                    background-color: $green-color !important;
-                }
-            }
-        }
-    }
-}
 /*----- End Service Details CSS -----*/
 
 /*----- Demos Wrap -----*/
