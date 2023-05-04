@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout/layout"
 import Seo from "../components/Layout/seo"
-import NavbarProjects from "../components/Layout/NavbarProjects"
+import Navbar from "../components/Layout/Navbar"
 import Projects from "../components/Content/Projects"
 import Footer from "../components/Layout/Footer"
 
@@ -9,7 +9,7 @@ const IndexPage = () => (
     <Layout>
         <div className="body-bg-five">
             <div className="main-area two">
-                <NavbarProjects />
+                <Navbar page="projects" />
 
                 <Seo title="Brett Tackaberry" />
                 

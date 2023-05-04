@@ -16,7 +16,7 @@ const IndexPage = () => (
     <Layout>
         <div className="body-bg-five">
             <div className="main-area two">
-                <Navbar />
+                <Navbar page="index" />
 
                 <Seo title="Brett Tackaberry" />
                 
