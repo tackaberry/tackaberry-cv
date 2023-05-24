@@ -11,7 +11,7 @@ const IndexPage = () => (
             <div className="main-area two">
                 <Navbar page="projects" />
 
-                <Seo title="Brett Tackaberry" />
+                <Seo pageTitle="Projects" />
                 
                 <div className="main-content two main-content--projects-main">
                     <div id="career-overview" className="about-area border-bottom-two three ptb-100">

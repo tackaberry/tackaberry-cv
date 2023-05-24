@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: ``,
-    description: `Brett Tackaberry Personal Website`,
+    title: `Brett Tackaberry Personal Website and CV`,
+    description: `Engineering leader. I believe in mission-driven technologies that make a positive impact and support real climate progress.🌲`,
     author: `@envy_theme`,
   },
   // plugins
