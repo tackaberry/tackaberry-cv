@@ -15,7 +15,7 @@ const About = () => {
 
                                 <h2>ProjectInKind</h2>
 
-                                <StaticImage alt="Project in kind logo" src={'./images/projectinkind.png'} />
+                                <StaticImage alt="Project in kind logo" src={'../../images/projectinkind.png'} />
 
                                 <p><em>Voluntary CTO</em></p>
                                 

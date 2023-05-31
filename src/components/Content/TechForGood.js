@@ -19,7 +19,7 @@ const About = () => {
                                 <h3>Random Hacks of Kindness</h3>
 
                                 <div style={{backgroundColor:"#fff", padding:"20px", width:"20em", marginRight:"20px", float:"left"}}>
-                                    <StaticImage src={'./images/rhok-logo.png'}  alt="RHOK" />
+                                    <StaticImage src={'../../images/rhok-logo.png'}  alt="RHOK" />
                                 </div>
 
                                 <p><a href="https://rhok.ca/">Random Hacks of Kindness</a> is a hackathon for social good that brings together volunteer developers and tech-savvy do-gooders to work with charities, community groups and social enterprises. We ran over 10 events, sometimes twice per year. I was a part of it from the beginning and led the last ~6 events.</p>
@@ -33,7 +33,7 @@ const About = () => {
                                 <h3>Tech4Good Ottawa </h3>
 
                                 <div style={{backgroundColor:"#fff", padding:"20px", width:"10em", marginRight:"20px", marginBottom:"10px", float:"left"}}>
-                                    <StaticImage src={'./images/t4g-logo.png'}  alt="Tech 4 Good Ottawa" />
+                                    <StaticImage src={'../../images/t4g-logo.png'}  alt="Tech 4 Good Ottawa" />
                                 </div>
 
                                 <p>Tech4Good Ottawa was a chapter based initiative to bring together tech sector and social sector in Ottawa. It was based on the NTEN community groups and Techsoup netsquared models. We hosted events like evening networking events with speakers and panels or daytime lunch and learns. We livestreamed a few of the later events.</p>
@@ -41,7 +41,7 @@ const About = () => {
                                 <h3 style={{clear:"left"}}>Ottawa Civic Tech</h3>
 
                                 <div style={{backgroundColor:"#fff", padding:"20px", width:"20em", marginRight:"20px", float:"left"}}>
-                                    <StaticImage src={'./images/ottawa-civic-tech-logo.png'}  alt="Ottawa Civic Tech" />
+                                    <StaticImage src={'../../images/ottawa-civic-tech-logo.png'}  alt="Ottawa Civic Tech" />
                                 </div>
 
                                 <p>Ottawa Civic Tech is a vibrant collection of folks across private sector, public sector, and academia. In Ottawa, being a federal government town, we had good mix of sectors - where in other cities you wouldn't have the same mix. I also felt it to be a smart nexus of folks and the right venue to collaborate with other engaged people that want to make their cities and communities a better place. I hosted many events in our space, brought in speakers, connected my other communities, and contributed to keeping it alive when interest waned.</p>
@@ -59,7 +59,7 @@ const About = () => {
                                 <h3>Good Food on the Move Delivery Dashboard</h3>
                                 <p>Good Food on the Move is a not-for-profit social enterprise that provides community members facing barriers, with a safe, reliable and convenient way to access fresh and nutritious food.  I helped these good people take simple order details and create a dashboard showing city-wide impact.</p>
 
-                                <StaticImage src={'./images/good-food-map.png'}  alt="Good food map" />
+                                <StaticImage src={'../../images/good-food-map.png'}  alt="Good food map" />
 
                                 <p><a href="https://github.com/tackaberry/marketmobile-delivery-data">https://github.com/tackaberry/marketmobile-delivery-data</a></p>
 

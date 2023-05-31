@@ -30,27 +30,27 @@ const About = () => {
                                 <div className="row">
                                     <div className="col-lg-4">
                                         <div className="gallery-item">
-                                            <StaticImage alt={`People playing giant tic tac toe in 1`} src={`./images/projects/tictactoe1.jpg`} />
+                                            <StaticImage alt={`People playing giant tic tac toe in 1`} src={`../../images/projects/tictactoe1.jpg`} />
                                         </div>
                                     </div>
                                     <div className="col-lg-4">
                                         <div className="gallery-item">
-                                            <StaticImage alt={`People playing giant tic tac toe in 3`} src={`./images/projects/tictactoe3.jpg`} />
+                                            <StaticImage alt={`People playing giant tic tac toe in 3`} src={`../../images/projects/tictactoe3.jpg`} />
                                         </div>
                                     </div>
                                     <div className="col-lg-4">
                                         <div className="gallery-item">
-                                            <StaticImage alt={`People playing giant tic tac toe in 2`} src={`./images/projects/tictactoe5.jpg`} />
+                                            <StaticImage alt={`People playing giant tic tac toe in 2`} src={`../../images/projects/tictactoe5.jpg`} />
                                         </div>
                                     </div>
                                     <div className="col-lg-4">
                                         <div className="gallery-item">
-                                            <StaticImage alt={`People playing giant tic tac toe in 4`} src={`./images/projects/tictactoe4.jpg`} />
+                                            <StaticImage alt={`People playing giant tic tac toe in 4`} src={`../../images/projects/tictactoe4.jpg`} />
                                         </div>
                                     </div>
                                     <div className="col-lg-4">
                                         <div className="gallery-item">
-                                            <StaticImage alt={`People playing giant tic tac toe in 5`} src={`./images/projects/tictactoe2.jpg`} />
+                                            <StaticImage alt={`People playing giant tic tac toe in 5`} src={`../../images/projects/tictactoe2.jpg`} />
                                         </div>
                                     </div>  
                                 </div>
@@ -70,7 +70,7 @@ const About = () => {
 
                                 <p>In mid-December 2014, bv02 and the <a href="https://nature.ca/">Canadian Museum of Nature</a> launched the pilot project in the Mammal Gallery using five (5) Estimote beacons. As patrons visited the museum, they were prompted to download the app onto their iPhones and interact with a game based on Evolution as they explored the gallery and came into range of a beacon. The pilot enabled us to test the suitability and garner an understanding of beacon technology in a museum environment.</p>
 
-                                <p style={{textAlign:"center"}}><StaticImage alt={`Signage for the game`} src={`./images/projects/nature1.jpg`} /></p>
+                                <p style={{textAlign:"center"}}><StaticImage alt={`Signage for the game`} src={`../../images/projects/nature1.jpg`} /></p>
 
                                 <p>We worked very closely with our good friends at TwelveDot who were an integral part of this project. TwelveDot Inc. is a security consulting practice with over 20 years experience in security engineering, corporate security policies, international standards, network and application vulnerability assessments, and just about everything in between.</p>
 
@@ -144,7 +144,7 @@ const About = () => {
 
                                 <p>At any time throughout the game, users were able to share their partially or fully evolved creature with their friends on Twitter. Once the fifth and final beacon was signalled, they were given the choice to start again with a new creature or keep playing.</p>
 
-                                <StaticImage alt={`Screenshot of nature evolution game`} src={`./images/projects/nature2.png`} />
+                                <StaticImage alt={`Screenshot of nature evolution game`} src={`../../images/projects/nature2.png`} />
 
                                 <h3>Evolution @ Nature – what we found</h3>
 
@@ -161,20 +161,20 @@ const About = () => {
                                 <p>Sessions over the course of the experiment</p>
 
                                 <p style={{textAlign:"center"}}>
-                                <StaticImage alt={`Chart of sessions over time of experiment`} src={`./images/projects/nature3.png`} />
+                                <StaticImage alt={`Chart of sessions over time of experiment`} src={`../../images/projects/nature3.png`} />
                                 </p>
 
                                 
                                 <p>Distribution of amount of time spent in the app </p> 
 
                                 <p style={{textAlign:"center"}}>
-                                <StaticImage alt={`Chart of time spent over time of experiment`} src={`./images/projects/nature4.png`} />
+                                <StaticImage alt={`Chart of time spent over time of experiment`} src={`../../images/projects/nature4.png`} />
                                 </p>
                                 
                                 <p>Distribution of number of beacon interactions per session</p>
                                                                 
                                 <p style={{textAlign:"center"}}>
-                                <StaticImage alt={`Chart of number of beacons over time of experiment`} src={`./images/projects/nature5.png`} />
+                                <StaticImage alt={`Chart of number of beacons over time of experiment`} src={`../../images/projects/nature5.png`} />
                                 </p>
                                 
                                 <p>With over five (5) weeks of data from the pilot, the best way to communicate and highlight all of the relevant information was to bring the experience to life visually. You can see the journey of each active user throughout the Mammal Gallery including points in which they encountered beacons, or evolutions (flashing different colours). Start by selecting a session from the drop down.
@@ -194,11 +194,11 @@ const About = () => {
                                 <p>Launched in early 2021, and running until present day, <a href="https://www.RentingWell.com">RentingWell.com</a>, a simple and elegant approach to managing rental properties. I, along with some past co-workers and friends, we started Sliced Bread Inc. and built and launched this product. It has had steady revenue, and we're currently pursuing selling the product. </p>
 
                                 <p style={{textAlign:"center"}}>
-                                <StaticImage alt={`Screenshot of rentingwell.com`} src={`./images/projects/rw1.png`} />
+                                <StaticImage alt={`Screenshot of rentingwell.com`} src={`../../images/projects/rw1.png`} />
                                 </p>
 
                                 <p style={{textAlign:"center"}}>
-                                <StaticImage alt={`Screenshot of rentingwell.com`} src={`./images/projects/rw2.png`} />
+                                <StaticImage alt={`Screenshot of rentingwell.com`} src={`../../images/projects/rw2.png`} />
                                 </p>
                                 </div>
                         </div>
@@ -216,7 +216,7 @@ const About = () => {
 
                                 <p>In 2016, the project transitioned into a company called <a href="https://www.spriglearning.com/">Sprig Learning</a>.  The learning platform has continued to grow and expand while building on the original core concepts.</p>
                                 
-                                <StaticImage alt={`Sprig Learning and a moose puppet`} width="20em" src={`./images/projects/aski1.jpg`} />
+                                <StaticImage alt={`Sprig Learning and a moose puppet`} width={20} src={`../../images/projects/aski1.jpg`} />
 
 
                             </div>  

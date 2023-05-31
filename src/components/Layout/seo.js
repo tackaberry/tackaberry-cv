@@ -9,10 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import ogimage from '../Content/images/ogimage.png'
 
 function SEO({ pageTitle }) {
-  const { site } = useStaticQuery(
+  const { site, ogimage } = useStaticQuery(
     graphql`
       query {
         site {
@@ -20,6 +19,14 @@ function SEO({ pageTitle }) {
             title
             description
             author
+            url
+          }
+        }
+        ogimage: file(
+          absolutePath: { glob: "**/src/images/ogimage.png" }
+        ) {
+          childImageSharp {
+            gatsbyImageData(layout: FIXED, width: 1200, formats: [PNG])
           }
         }
       }
@@ -31,6 +38,8 @@ function SEO({ pageTitle }) {
   const lang = `en`
 
   const title = pageTitle ? pageTitle : defaultTitle
+
+  console.log('%cseo.js line:41 ogimage', 'color: #007acc;', ogimage);
 
   return (
     <Helmet
@@ -54,7 +63,15 @@ function SEO({ pageTitle }) {
         },
         {
           property: `og:image`,
-          content: ogimage
+          content: `${site.siteMetadata.url}${ogimage.childImageSharp.gatsbyImageData.images.fallback.src}`,
+        },
+        {
+          name: 'og:image:width',
+          content: ogimage.childImageSharp.gatsbyImageData.width,
+        },
+        {
+          name: 'og:image:height',
+          content: ogimage.childImageSharp.gatsbyImageData.height,
         },
         {
           property: `og:type`,

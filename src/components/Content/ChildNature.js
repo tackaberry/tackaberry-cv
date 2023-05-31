@@ -13,7 +13,7 @@ const About = () => {
 
                                 <h2>Child Nature Alliance of Canada</h2>
 
-                                <StaticImage alt="Screenshot of website" src={'./images/childnature.png'} />
+                                <StaticImage alt="Screenshot of website" src={'../../images/childnature.png'} />
 
                                 <p><em>Board member - 2016 - Present</em></p>
                                 
