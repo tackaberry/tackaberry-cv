@@ -39,8 +39,6 @@ function SEO({ pageTitle }) {
 
   const title = pageTitle ? pageTitle : defaultTitle
 
-  console.log('%cseo.js line:41 ogimage', 'color: #007acc;', ogimage);
-
   return (
     <Helmet
       htmlAttributes={{
