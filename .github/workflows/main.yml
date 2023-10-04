@@ -27,4 +27,8 @@ jobs:
         destination: 'tackaberry-dev'
         parent: false
 
+    - id: 'invalidate'
+      name: 'Invalidate CDN'
+      run: gcloud compute url-maps invalidate-cdn-cache tackaberry-dev --path "/*"
+
         
