@@ -25,14 +25,27 @@ resource "google_storage_bucket" "default" {
   force_destroy = false
   location      = "US"
   storage_class = "STANDARD"
+
+  uniform_bucket_level_access = true
+
+  website {
+    main_page_suffix = "index.html"
+    not_found_page   = "404.html"
+  }
 }
 
 resource "google_storage_bucket" "bucket_pres1" {
-  project       = var.project
-  name          = var.pres1
-  force_destroy = false
-  location      = "US"
-  storage_class = "STANDARD"
+  project                     = var.project
+  name                        = var.pres1
+  force_destroy               = false
+  location                    = "US"
+  storage_class               = "STANDARD"
+  uniform_bucket_level_access = true
+
+  website {
+    main_page_suffix = "index.html"
+    not_found_page   = "404.html"
+  }
 }
 
 resource "google_compute_backend_bucket" "default" {
@@ -48,15 +61,16 @@ resource "google_compute_backend_bucket" "pres1_backend" {
 }
 
 resource "google_compute_managed_ssl_certificate" "default" {
+  project = var.project
 
-  name = "${var.name}-cert"
+  name = "${var.name}-certificate"
 
   lifecycle {
     create_before_destroy = true
   }
 
   managed {
-    domains = [var.host, "${var.pres1}.${var.host}"]
+    domains = [var.host, "www.${var.host}", "${var.pres1}.${var.host}"]
   }
 }
 
