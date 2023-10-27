@@ -13,6 +13,9 @@ variable "name" {
 variable "pres1" {
   description = "Name of presenetation 1"
 }
+variable "pres2" {
+  description = "Name of presenetation 2"
+}
 variable "host" {
   description = "Root url"
 }
