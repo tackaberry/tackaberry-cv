@@ -88,17 +88,30 @@ resource "google_compute_backend_bucket" "pres2_backend" {
   enable_cdn  = true
 }
 
+locals {
+  managed_domains = tolist([var.host, "www.${var.host}", "${var.pres1}.${var.host}", "${var.pres2}.${var.host}"])
+}
+
+resource "random_id" "certificate" {
+  byte_length = 4
+  prefix      = "${var.name}-certificate-"
+
+  keepers = {
+    domains = join(",", local.managed_domains)
+  }
+}
+
 resource "google_compute_managed_ssl_certificate" "default" {
   project = var.project
 
-  name = "${var.name}-certificate"
+  name = random_id.certificate.hex
 
   lifecycle {
     create_before_destroy = true
   }
 
   managed {
-    domains = [var.host, "www.${var.host}", "${var.pres1}.${var.host}"]
+    domains = local.managed_domains
   }
 }
 
