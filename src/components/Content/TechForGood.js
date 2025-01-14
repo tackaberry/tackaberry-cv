@@ -36,7 +36,7 @@ const About = () => {
                                     <StaticImage src={'../../images/t4g-logo.png'}  alt="Tech 4 Good Ottawa" />
                                 </div>
 
-                                <p>Tech4Good Ottawa was a chapter based initiative to bring together tech sector and social sector in Ottawa. It was based on the NTEN community groups and Techsoup netsquared models. We hosted events like evening networking events with speakers and panels or daytime lunch and learns. We livestreamed a few of the later events.</p>
+                                <p><a href="https://tech4goodottawa.ca/">Tech4Good Ottawa</a> was a chapter based initiative to bring together tech sector and social sector in Ottawa. It was based on the NTEN community groups and Techsoup netsquared models. We hosted events like evening networking events with speakers and panels or daytime lunch and learns. We livestreamed a few of the later events.</p>
 
                                 <h3 style={{clear:"left"}}>Ottawa Civic Tech</h3>
 
@@ -44,7 +44,7 @@ const About = () => {
                                     <StaticImage src={'../../images/ottawa-civic-tech-logo.png'}  alt="Ottawa Civic Tech" />
                                 </div>
 
-                                <p>Ottawa Civic Tech is a vibrant collection of folks across private sector, public sector, and academia. In Ottawa, being a federal government town, we had good mix of sectors - where in other cities you wouldn't have the same mix. I also felt it to be a smart nexus of folks and the right venue to collaborate with other engaged people that want to make their cities and communities a better place. I hosted many events in our space, brought in speakers, connected my other communities, and contributed to keeping it alive when interest waned.</p>
+                                <p><a href="https://www.ottawacivictech.ca/">Ottawa Civic Tech</a> is a vibrant collection of folks across private sector, public sector, and academia. In Ottawa, being a federal government town, we had good mix of sectors - where in other cities you wouldn't have the same mix. I also felt it to be a smart nexus of folks and the right venue to collaborate with other engaged people that want to make their cities and communities a better place. I hosted many events in our space, brought in speakers, connected my other communities, and contributed to keeping it alive when interest waned.</p>
 
                                 <p>We kept connected to the national movement via Code for Canada. I participate at national level by: hosting a panel at their national summit; volunteered as a technical interviewer in their fellowship program; and, consulted, during the pandemic, on how to get publicly contributed software to be open-source ready.</p>
 

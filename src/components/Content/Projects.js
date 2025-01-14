@@ -216,7 +216,7 @@ const About = () => {
 
                                 <p>In 2016, the project transitioned into a company called <a href="https://www.spriglearning.com/">Sprig Learning</a>.  The learning platform has continued to grow and expand while building on the original core concepts.</p>
                                 
-                                <StaticImage alt={`Sprig Learning and a moose puppet`} width={20} src={`../../images/projects/aski1.jpg`} />
+                                <StaticImage alt={`Sprig Learning and a moose puppet`} width={400} src={`../../images/projects/aski1.jpg`} />
 
 
                             </div>  

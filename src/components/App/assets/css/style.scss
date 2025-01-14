@@ -2057,6 +2057,13 @@ button {
                 }
             }
         }
+        
+        p {
+            color: $white-color;            
+            span {
+                color: $green-color;
+            }
+        }
     }
 }
 

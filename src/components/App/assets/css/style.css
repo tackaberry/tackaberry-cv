@@ -1633,6 +1633,10 @@ button:focus {
   color: #4BFFA5;
 }
 
+.about-area.three .about-content p span {
+  color: #4BFFA5;
+}
+
 /*-- Services --*/
 .what-area.three .what-item {
   text-align: left;

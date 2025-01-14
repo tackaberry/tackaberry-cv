@@ -28,24 +28,6 @@ const Navbar = () => {
                 <AnchorLink 
                     offset={() => -1} 
                     className="nav-link" 
-                    href="#top7"
-                >
-                    Top 7 Things You Need to Know About Me
-                </AnchorLink>
-            </li>
-            <li className="nav-item">
-                <AnchorLink 
-                    offset={() => -1} 
-                    className="nav-link" 
-                    href="#adayinthelife"
-                >
-                    A day in the life
-                </AnchorLink>
-            </li>
-            <li className="nav-item">
-                <AnchorLink 
-                    offset={() => -1} 
-                    className="nav-link" 
                     href="#tech4good"
                 >
                     Tech for Good &amp; Community

@@ -20,6 +20,26 @@ const About = () => {
                                 <h2><span>Presentations</span></h2>
                                 <p><span>Events, Presentations and Panels over the years.</span></p>
 
+                                <h3>WMO Workshop on Data-Proximate Compute</h3>
+                                <p>September 2024 ◸ <a href="https://tackaberry.github.io/presentations/WMO-Workshop--From-Cloud-to-Edge-September-2024.pdf" target="_blank" rel="noreferrer" >Download</a></p>
+                                <p>By distributing computing power closer to the data source (the "edge"),
+                                meteorological operations can achieve lower latency, faster responses, and localized
+                                processing. This is critical for weather forecasting, early warning systems, and
+                                disaster response, where timely and accurate data is essential. Cloud-to-edge
+                                solutions also enable better handling of massive datasets, ensuring that global
+                                meteorological services are resilient, scalable, and able to support growing
+                                demands.
+                                Knowing the capabilities and tradeoffs of cloud and edge will help you build the most
+                                effective hybrid cloud strategy. </p>
+
+                                <h3>AI Tinkerers Ottawa</h3><p>August 2024 ◸ <a href="https://tackaberry.github.io/presentations/AI-Tinkerers-Ottawa-August-2024.pdf" rel="noreferrer" target="_blank">Download</a></p>
+
+                                <h3>Cloud Sustainability: A Practical Guide for Building a More Sustainable Internet</h3>
+                                <p>Novemeber 2023 ◸ <a href="https://github.com/tackaberry/cncf-cloud-sustainability" rel="noreferrer" target="_blank">Download</a></p>
+
+                                <h3>W3C Web Sustainability Guidelines</h3>
+                                <p>November 2023 ◸ <a href="https://github.com/tackaberry/ottawajs-w3c-web-sustainability-guidelines">Download</a></p>
+
                                 <h3><span>How to Stay Safe &amp; Secure Online: Cybersecurity Fundamentals</span></h3><p><span>Thursday, March 30, 2023 @ 12- 1PM ◸ </span><span><a href="https://github.com/tackaberry/impact-hub-bbl-cybersecurity-fundamentals">Source code</a></span><span>&nbsp;◸ </span><span><a href="http://impact-hub-bbl-cybersecurity-fundamentals.s3-website.ca-central-1.amazonaws.com/">Slides</a></span></p><p><span>In today's digital age, it's more important than ever to be aware of cybersecurity threats and take proactive steps to protect yourself and your business. Learn about the basics of cybersecurity, including the common types of cyber attacks, how to identify them, and how to prevent them.</span></p>
 
                                 <h3><span>What is web3 &amp; Why Should You Care?</span></h3><p><span>Thursday, June 9, 2022 @ 12- 1PM ◸ </span><span><a href="https://github.com/tackaberry/impact-hub-bbl-web3-intro">Source code</a></span><span>&nbsp;◸ </span><span><a href="http://impact-hub-bbl-web3-intro.s3-website.ca-central-1.amazonaws.com/">Slides</a></span></p><p><span>Web3 is an emerging structure for the next generation of the internet. Whether you know it or not, it’s already starting to change the way you live and work online.</span></p>

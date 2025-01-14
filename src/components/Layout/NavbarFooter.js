@@ -17,11 +17,6 @@ const NavbarFooter = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/tackaberry" rel="noreferrer" target="_blank">
-                        <i className='bx bxl-twitter'></i>
-                    </a>
-                </li>
-                <li>
                     <a href="https://github.com/tackaberry" rel="noreferrer" target="_blank">
                         <i className='bx bxl-github'></i>
                     </a>

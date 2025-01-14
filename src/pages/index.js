@@ -3,9 +3,8 @@ import Layout from "../components/Layout/Layout"
 import Seo from "../components/Layout/Seo"
 import Navbar from "../components/Layout/Navbar"
 import MainBanner from "../components/Content/MainBanner"
+import Carleton from "../components/Content/Carleton"
 import About from "../components/Content/About"
-import TopSeven from "../components/Content/TopSeven"
-import DayInTheLife from "../components/Content/DayInTheLife"
 import TechForGood from "../components/Content/TechForGood"
 import ChildNature from "../components/Content/ChildNature"
 import ProjectInKind from "../components/Content/ProjectInKind"
@@ -22,9 +21,8 @@ const IndexPage = () => (
                 
                 <div className="main-content two">
                     <MainBanner />
+                    <Carleton />
                     <About />
-                    <TopSeven />
-                    <DayInTheLife />
                     <TechForGood />
                     <ChildNature />
                     <ProjectInKind />
